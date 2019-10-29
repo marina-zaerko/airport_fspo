@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mainUserController">
+   <children>
+      <Button fx:id="buy_tick" layoutX="133.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Купить билет" AnchorPane.bottomAnchor="150.66666666666666" AnchorPane.leftAnchor="133.0" AnchorPane.rightAnchor="135.0" AnchorPane.topAnchor="124.0" />
+      <Button fx:id="list_buy" layoutX="133.0" layoutY="165.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Список покупок" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="133.0" AnchorPane.rightAnchor="135.0" AnchorPane.topAnchor="165.0" />
+      <Button fx:id="exit" layoutX="167.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Выход" AnchorPane.bottomAnchor="59.0" AnchorPane.leftAnchor="167.0" AnchorPane.rightAnchor="169.0" AnchorPane.topAnchor="216.0" />
+      <Text layoutX="100.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Покупка билетов на авиарейсы" textAlignment="CENTER" wrappingWidth="198.13666534423828" AnchorPane.bottomAnchor="196.37890625" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="101.86333465576172" AnchorPane.topAnchor="50.41796875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.succsessfulController">
+    <children>
+        <Button fx:id="backto_list_tickets" layoutX="52.0" layoutY="179.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="233.0" text="Вернуться к списку доступных билетов" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="179.0" />
+        <Text fx:id="succsess" layoutX="69.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бронирование билета успешно завершено!" textAlignment="CENTER" wrappingWidth="198.13666534423828" AnchorPane.bottomAnchor="111.77734375" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="60.86333465576172" AnchorPane.topAnchor="80.41796875">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.regTicketController">
+    <children>
+        <Button fx:id="back_reg" layoutX="302.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Назад" AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="302.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="24.0" />
+        <Text layoutX="6.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Покупка билета на авиарейс" wrappingWidth="309.46997833251953" AnchorPane.bottomAnchor="249.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="84.53002166748047" AnchorPane.topAnchor="21.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+      <TextField fx:id="passport_reg" layoutX="184.0" layoutY="185.0" prefHeight="25.0" prefWidth="202.0" promptText="Введите серию и номер паспорта" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="184.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="185.0" />
+      <RadioButton fx:id="business_reg" layoutX="25.0" layoutY="221.0" mnemonicParsing="false" text="Бизнес класс" AnchorPane.bottomAnchor="61.666666666666686" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="282.3333333333333" AnchorPane.topAnchor="221.0" />
+      <RadioButton fx:id="econom_reg" layoutX="132.0" layoutY="221.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="105.0" text="Эконом класс" AnchorPane.bottomAnchor="62.0" AnchorPane.leftAnchor="132.0" AnchorPane.rightAnchor="163.0" AnchorPane.topAnchor="221.0" />
+      <Button fx:id="its_okey_reg" layoutX="39.0" layoutY="252.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Подтвердить" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="39.0" AnchorPane.rightAnchor="268.0" AnchorPane.topAnchor="252.0" />
+      <Text fx:id="be_careful_reg" layoutX="154.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Внимательно проверьте ваши данные перед подтверждением! " wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="18.4462890625" AnchorPane.leftAnchor="154.0" AnchorPane.rightAnchor="37.86334991455078" AnchorPane.topAnchor="246.9716796875">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="passport_1" layoutX="18.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Серия и номер паспорта:" wrappingWidth="208.13665008544922">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="first_name_1" layoutX="222.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя:" wrappingWidth="208.13665008544922" AnchorPane.leftAnchor="222.0" AnchorPane.topAnchor="143.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="second_name_1" layoutX="6.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="138.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="185.86334991455078" AnchorPane.topAnchor="143.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="second_name_reg" layoutX="71.0" layoutY="141.0" prefHeight="25.0" prefWidth="130.0" promptText="Введите фамилию" AnchorPane.bottomAnchor="134.0" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="199.0" AnchorPane.topAnchor="141.0" />
+      <TextField fx:id="first_name_reg1" layoutX="257.0" layoutY="141.0" prefHeight="25.0" prefWidth="130.0" promptText="Введите имя" AnchorPane.bottomAnchor="134.0" AnchorPane.leftAnchor="257.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="141.0" />
+      <Text fx:id="num_raice" layoutX="18.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер рейса:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="218.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="173.86334991455078" AnchorPane.topAnchor="63.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="point_departure" layoutX="18.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пункт отправления:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="198.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="173.86334991455078" AnchorPane.topAnchor="83.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="point_arrive" layoutX="18.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пункт назначения:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="178.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="173.86334991455078" AnchorPane.topAnchor="103.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="time_departure" layoutX="227.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время вылета:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="198.0" AnchorPane.leftAnchor="227.0" AnchorPane.rightAnchor="-35.13665008544922" AnchorPane.topAnchor="83.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="time_arrive" layoutX="227.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время прибытия:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="178.0" AnchorPane.leftAnchor="227.0" AnchorPane.rightAnchor="-35.13665008544922" AnchorPane.topAnchor="103.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="date" layoutX="227.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="198.0" AnchorPane.leftAnchor="227.0" AnchorPane.rightAnchor="-35.13665008544922" AnchorPane.topAnchor="63.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="price" layoutX="237.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Стоимость:" wrappingWidth="208.13665008544922" AnchorPane.bottomAnchor="61.0" AnchorPane.leftAnchor="237.0" AnchorPane.rightAnchor="-45.13665008544922" AnchorPane.topAnchor="220.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
